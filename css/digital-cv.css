@@ -20,7 +20,7 @@ body {
   color: var(--green-dark);
   border-bottom: 1px solid grey;
   font-size: 35px;
-
+  font-weight: 600;
   margin-bottom: 1rem;
 }
 .circle-timeline-num {
