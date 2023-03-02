@@ -1,0 +1,8 @@
+@media only screen and (max-width: 500px) {
+  .container {
+    text-align: center;
+  }
+  .c-item {
+    margin-bottom: 1rem;
+  }
+}

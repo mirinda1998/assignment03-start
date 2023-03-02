@@ -1,0 +1,50 @@
+:root {
+  --green: #b2f2bb;
+  --green-dark: #2f9e44;
+}
+
+/* GLOBAL STYLE */
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--green-dark);
+}
+.container {
+  width: 95%;
+}
+.c-item {
+  background: #fff;
+  padding: 2rem;
+}
+.c-header {
+  color: var(--green-dark);
+  border-bottom: 1px solid grey;
+  font-size: 35px;
+
+  margin-bottom: 1rem;
+}
+.circle-timeline-num {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #888844;
+  border-radius: 50%;
+  background-color: #b478ed;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  display: grid;
+  align-items: center;
+}
+.c-content {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.c-content i {
+  margin-right: 2rem;
+  width: 100%;
+}
+.c-content span {
+  padding-left: 1rem;
+  width: 100%;
+}
